@@ -14,6 +14,7 @@ $ npm install fixed-object
 
 ## make immutable:
 
+*config.json:*
 ```json
 {
     "name": "gochomugo"
@@ -26,6 +27,7 @@ var config = fixedobj(require("./config.json"));
 
 console.log(config); // => { name: 'gochomugo' }
 
+// this will throw an error
 config.name = "sheldon cooper"; // => TypeError: Cannot assign to read only property 'name' of #<Object>
 
 console.log(config); // => { name: 'gochomugo' }
