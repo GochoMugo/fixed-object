@@ -1,0 +1,48 @@
+{
+  "name": "fixed-object",
+  "version": "0.0.0",
+  "description": "Make an object immutable! Just that! No more crap!",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src --out-dir lib",
+    "pretest": "npm run build ; babel test --out-dir ctest",
+    "test": "grunt test",
+    "test-coverage": "istanbul cover _mocha --report lcovonly -- -R spec ctest/test.*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GochoMugo/fixed-obj.git"
+  },
+  "keywords": [
+    "object",
+    "fixed",
+    "immutable"
+  ],
+  "author": {
+    "name": "GochoMugo",
+    "email": "mugo@forfuture.co.ke",
+    "url": "https://gochomugo.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GochoMugo/fixed-obj/issues"
+  },
+  "homepage": "https://github.com/GochoMugo/fixed-obj",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "coveralls": "^2.11.3",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-eslint": "^17.0.0",
+    "grunt-mocha-test": "^0.12.7",
+    "istanbul": "^0.3.17",
+    "load-grunt-tasks": "^3.2.0",
+    "mocha-lcov-reporter": "^0.0.2",
+    "should": "^7.0.2"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
