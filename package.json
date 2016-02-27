@@ -31,7 +31,9 @@
   "homepage": "https://github.com/GochoMugo/fixed-object",
   "dependencies": {},
   "devDependencies": {
-    "babel": "^6.5.2",
+    "babel-cli": "^6.5.1",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-preset-es2015": "^6.5.0",
     "coveralls": "^2.11.3",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
