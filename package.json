@@ -1,6 +1,6 @@
 {
   "name": "fixed-object",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Make an object immutable! Just that! No more crap!",
   "main": "lib/index.js",
   "scripts": {
