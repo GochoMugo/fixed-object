@@ -43,4 +43,4 @@ I find this useful when loading configuration files. We usually **never** intend
 
 __The MIT License (MIT)__
 
-Copyright (c) 2015 GochoMugo <mugo@forfuture.co.ke>
+Copyright (c) 2015-2016 GochoMugo <mugo@forfuture.co.ke>
